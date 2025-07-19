@@ -36,6 +36,31 @@ Here's the list of desired features
  - [x] **File Search:** Telescope + fzf + ripgrep 
  - [x] **LSP Comodities:** Native LSP Client, mason for servers installation and cmp
 
+#### Keymaps
+Here's the list of the most relevant keymaps. If you want to see more check 
+[keymaps](./nvim/lua/config/keymaps.lua) and plugins files.
+All the following keymaps are for **normal mode**, the leader key is **space**.
+
+| Action | Keymap |
+| :-----: | :-----: |
+| Save | Ctrl + s |
+| Navigate to upper split | Ctrl + k | 
+| Navigate to lower split | Ctrl + j | 
+| Navigate to right split | Ctrl + l | 
+| Navigate to left split  | Ctrl + h | 
+| Next Buffer | tab | 
+| Previous Buffer | shift + tab | 
+| Close current buffer | leader + x| 
+| New Buffer | leader + b | 
+| Open Netrw | leader + e |
+| Search for files | leader + ff|
+| Search for files content | leader + fg |
+| Go to definition | gd |
+| Go to reference | gr |
+| Go to implementation | gI |
+| Rename Variable | leader + rn |
+| Hover Documentation | K (once overed over the desired function|variable) |
+| Open Floating terminal | leader + t|
 
 ## License
 [MIT](LICENSE.md)
