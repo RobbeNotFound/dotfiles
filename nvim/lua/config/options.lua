@@ -1,5 +1,3 @@
-vim.cmd.colorscheme("retrobox")			-- Set colorscheme
-
 -- Basic Settings
 vim.o.number = true 			        -- Always show line numbers
 vim.o.relativenumber = true		        -- Show line number relative to cursor position

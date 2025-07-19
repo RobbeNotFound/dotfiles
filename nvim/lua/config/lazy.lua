@@ -26,5 +26,18 @@ require("lazy").setup({
   -- colorscheme that will be used when installing plugins.
   install = { colorscheme = { "habamax" } },
   -- automatically check for plugin updates
-  checker = { enabled = true, quiet =true},
-})
+  checker = { enabled = true, quiet =true, notify = false},
+
+  -- THE `opts` TABLE GOES HERE, AS A KEY WITHIN THE MAIN CONFIG TABLE
+  opts = {
+    colorscheme = "tokyonight",
+  },
+
+  -- Example of other top-level keys you might see in lazy.nvim's config table:
+  -- ui = {
+  --   border = "rounded",
+  -- },
+  -- defaults = {
+  --   lazy = false,
+  -- },
+}) -- Removed the extra closing parenthesis and table here
