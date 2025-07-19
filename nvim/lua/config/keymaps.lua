@@ -31,7 +31,6 @@ vim.keymap.set('n', '<C-u>', '<C-u>zz', opts)
 vim.keymap.set('n', 'n', 'nzzzv', opts)
 vim.keymap.set('n', 'N', 'Nzzzv', opts)
 vim.opt.path:append("**")                          -- include subdirectories in search
-vim.keymap.set("n", "<leader>ff", ":find ", { desc = "Find file" })
 
 -- Resize with arrows
 vim.keymap.set('n', '<Up>', ':resize -2<CR>', opts)
