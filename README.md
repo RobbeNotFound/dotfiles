@@ -8,12 +8,13 @@ This repo contains the collection of my dotfiles and configurations
  - **Editor** [nvim](https://neovim.io/)
 
 ### Nvim
-My neovim configuration aims to be as much lighter as possible
+My neovim configuration! I've tried to add as few plugin as possible 
 
 ### Requirements
  - nvim (0.10+)
  - ripgrep
  - fzf
+ - nodejs (only for lsp support)
 
 #### Installation
 Before installing it consider backing up previous configurations
@@ -29,11 +30,11 @@ ln -s ~/Project/dotfiles/nvim ~/.config/nvim
 ```
 
 #### Features
-Here's the list of desired feature of the pluginless nvim configuration
+Here's the list of desired features
  - [x] **File tree navigation:** netwr
  - [x] **Terminal:** Custom floating terminal
  - [x] **File Search:** Telescope + fzf + ripgrep 
- - [ ] **LSP Comodities:** Native LSP Client, and scripted integration
+ - [x] **LSP Comodities:** Native LSP Client, mason for servers installation and cmp
 
 
 ## License
